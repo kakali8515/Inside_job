@@ -1,0 +1,50 @@
+.mb-0{
+    margin-bottom: 0;
+}
+.contract-list{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: $colorFA;
+    border-radius: 8px;
+    padding: 16px 16px 16px 36px;
+    li{
+        font-weight: 500;        
+        line-height: 140%;
+        color: $color66;  
+        list-style: disc;
+
+    }    
+}
+.employ-contract-list{
+    ul{
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        li{
+            border: 1px solid $colorE0;
+            border-radius: 12px;
+            padding: 14px 16px;
+            a{
+                display: flex;
+                gap: 32px;
+                justify-content: space-between;
+            }
+            p{
+                font-weight: 700;
+                line-height: 20px;
+                color: $color33;
+                span{
+                    font-weight: 400;
+                    line-height: 17px;
+                    color: $colorA4;
+                    display: block;
+                    margin-top: 8px;
+                }
+            }
+            &.active{
+                border: 1px solid $color3F;
+            }
+        }
+    }
+}

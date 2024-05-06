@@ -1,0 +1,713 @@
+
+.emply-contrct-space{
+    min-height: 615px;
+    background-color: #2F80ED;
+   }
+   
+
+.rejection-cont{    
+    padding-bottom: 27px;
+    p{
+        font-weight: 700;        
+        line-height: 17px;
+        color: $color33;
+        margin-bottom: 8px;
+
+        &.error-msg{
+            color: $color3F;
+        }
+    }
+    .form-control{
+        font-weight: 400;
+        line-height: 140%;
+        color: $color33;
+        border: 1px solid $colorF2;
+        border-radius: 8px;
+        padding: 16px;
+        width: 100%;
+        height: 250px;
+        resize: none;
+        outline: none;
+    }
+}
+
+.employment-tab{
+    .no-data-content{
+        margin-top: 0;
+    }
+}
+
+.form-wrapper{
+    &.employment-form-wrap{
+        .form-group{
+            label{
+                margin-bottom: 4px;
+            }
+            .form-control{
+                border-bottom: 1px solid #E0E0E0;
+                font-weight: 400;
+            }
+            .business-period-cont{
+                .period-row{
+                    span{
+                        color: #A4A4A4;
+                        font-weight: 500;
+                    }
+                    .date-info{
+                        border-color: #A4A4A4;
+                        &.date-error{
+                            border-color: #DF1B3F;
+                        }
+                    }
+                }
+                .note{
+                    font-weight: 400;
+                    line-height: 160%;
+                    color: #A4A4A4;
+                    margin-top: 16px;
+                    display: block;
+                }
+            }
+            .radio-wrapper{
+                display: flex;
+                flex-flow: wrap;
+                align-items: center;
+                width: 100%;
+                label{
+                    width: calc(100% / 4);
+                    margin: 0 0 16px 0;
+                }
+                .mb-0{
+                    margin-bottom: 0 !important;
+                }
+            }
+            .checkbox-wrapper{
+                display: flex;
+                flex-flow: wrap;
+                align-items: center;
+                width: 100%;
+                label{
+                    width: calc(100% / 4);
+                    margin: 16px 0 0 0;
+                    height: 20px;
+                    display: flex;
+                    align-items: center;
+                }
+                .square-check-input{
+                    .checkmark{
+                        height: 20px;
+                        width: 20px;
+                        &:after{
+                            left: 6px;
+                            top: 3px;
+                        }
+                    }
+                }
+            }
+            .square-check-input{
+                font-weight: 400;
+            }
+
+            .wage-input-wrap{
+                display: flex;
+                gap: 4px;
+                align-items: center;
+                margin-top: 4px;
+                margin-bottom: 16px;
+                &.center-align {
+                    .form-control{
+                        text-align: center;
+                    }
+                }
+                .form-control{
+                    text-align: right;
+                    border-bottom: 1px solid #A4A4A4;
+                }
+                span{
+                    color: #666666;
+                    font-weight: 500;
+                    line-height: 120%;
+                }
+                &.overtime-pay{
+                    .form-control{
+                        text-align: center;
+                    }  
+                }
+
+                &.age-input{
+                    margin: 0;
+                    .form-control{
+                        text-align: left;
+                    }      
+                }
+            }
+        }
+       .date-box{
+        margin-top: 14px;
+        margin-bottom: 0;
+        label{
+            color: #666666;
+            font-weight: 400;
+            margin: 0 3px;
+            display: inline-block;
+        }
+        span{
+            margin: 0 2px;
+            color: #181818;
+        }
+       } 
+    }
+} 
+
+.bonus-wrapper {
+    padding: 16px;
+    background: #FAFAFA;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+    h5{
+        font-weight: 700;
+        line-height: 17px;
+        color: #333333;
+    }
+}
+
+.bonus-wrapper{
+    h5{
+        margin-bottom: 16px;
+    }
+}
+
+.employment-tab{
+    &.bonus-tab{
+        .tabs-otr{
+            .tabs-header{              
+                
+                li{
+                    font-weight: 400;
+                    line-height: 120%;
+                    color: #666666;
+                    padding: 8px 12px;
+                    background: #fff;
+                    border-color: #BDBDBD;
+                    &:first-child{
+                        border-radius: 4px 0px 0px 4px;
+                    }
+                    &:last-child{
+                        border-radius: 0px 4px 4px 0px;
+                    }
+                    &.active{
+                        color: #DF1B3F;
+                        border-color: #DF1B3F;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .outerside{
+            padding: 0;
+            .form-group{
+                .wage-input-wrap{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    
+}
+
+.employment-tab{
+    &.bonus-tab{
+        .form-group{
+            .form-control{
+                border-bottom: 1px solid #A4A4A4;
+            }
+            
+        }
+        .btn{
+            &.btn-border-gray-outline{
+                background:#fff;
+                border: 1px dashed #666666;
+            }
+        }
+        
+    }
+}
+
+.salary-group{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    .salary-lft-col{
+        width: 120px;
+    }
+    .salary-rht-col{
+        width: calc(100% - 120px);
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        .form-control{
+            text-align: right;
+        }
+        .cross-btn{
+            padding: 8px;
+            max-width: 40px;
+            width: 100%;
+            height: 41px;
+            border: 1px solid #BDBDBD;
+            background:#fff;
+            border-radius: 12px;
+            text-align: center;
+            margin-left: 4px;
+
+            img{
+                margin: 0 auto;
+            }
+        }
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+
+.form-wrapper{
+    &.employment-form-wrap{
+        .wage-radio-wrapper{
+            .radio-input{
+                margin-top: 16px;
+                margin-bottom: 0;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                .checkmark{
+                    &:after{
+                        top: 3px;
+                    }
+                }
+            }
+            .wage-input-wrap{
+                .form-control{
+                    text-align: left;
+                }
+                
+               
+            }
+        }
+        
+    }
+}
+
+.form-wrapper{
+    &.employment-form-wrap{
+        .form-group{
+            .checkbox-wrapper{
+                &.insurance-checkbox{
+                    &.cl-12 {
+                        label {
+                            width: 100%;
+                        }
+                    }
+                    label{
+                        width: 50%;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            &.business-info{
+                label{
+                    margin-bottom: 16px;
+                }
+                .post-list{
+                    li{
+                        margin-bottom: 16px;
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+            label{
+                &.mb-16{
+                    margin-bottom: 16px !important;
+                }
+            }
+            .form-control{
+                border-bottom: 1px solid #A4A4A4;
+                &.error-field{
+                    border-color: #DF1B3F;
+                }
+            }
+        }
+    }
+}
+
+.condition-checkbox-otr{
+    margin-top: 16px;
+    position: relative;
+    label{        
+        &.check-input{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 140%;
+            color: #666666;            
+        }
+        
+    }
+    .exe{
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-weight: 400;
+        line-height: 140%;
+        color: #A4A4A4;
+        text-decoration: underline;
+    }
+}
+.condition-cont{
+    .date-box{
+        margin-top: 16px !important;
+        em{
+            font-weight: 600;
+            margin: 2px;
+        }
+    }
+}
+
+.working-day-wrap{
+    .note {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 160%;
+        color: #A4A4A4;
+        margin-top: 16px;
+        display: block;
+    }
+    .working-otr{
+        border: 1px solid #F2F2F2;
+        border-radius: 8px;
+        background: #FAFAFA;
+        margin-top: 16px;  
+        margin-bottom: 16px;      
+        overflow: hidden;
+        .header-row{
+            background: #FFFFFF;
+            padding: 0 16px;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid #F2F2F2;
+            .item{
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 140%;
+                color: #A4A4A4;
+                padding:11px;
+            }
+        }
+        .bdy-cont{
+            background: #FAFAFA;
+            padding: 16px;
+            display: flex;
+            gap: 16px;
+            flex-direction: column;
+            .day-otr{
+                
+                .item-row{
+                    display: flex;
+                    .lft-part{
+                        width: calc(100% - 128px);
+                        .check-list{
+                            padding: 12px 0;
+                            .check-input{
+                                display: flex;
+                                align-items: center;
+                                height: 20px;
+                                .checkmark{
+                                    top: 0;
+                                    border-radius: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .rht-part{
+                        max-width: 128px;
+                        width: 100%;
+                        display: flex;
+                        gap: 4px;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        &.rht-part-nobreak {
+                            flex-wrap: nowrap;
+                            span {
+                                white-space: nowrap;
+                            }
+                        }
+                        .form-control{
+                            text-align: center;
+                        }
+                        span{
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 120%;
+                            color: #666666;
+                            max-width: 21px;
+                            width: 100%;
+                        }
+                    }
+                }
+                .hidden-box{
+                    background: #F2F2F2;
+                    border-radius: 8px;
+                    padding: 16px;
+                    margin-top: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    .form-group-wrapper{
+                        &.bord{
+                            padding: 0 12px;
+                        }
+                        .form-group{
+                            .form-control{
+                                border: 0;
+                                padding: 0;
+                            }
+                            em{
+                                font-weight: 500;
+                                line-height: 120%;
+                                color: #666666;
+                            }
+                        }
+                    }
+                    .check-list{
+                        padding: 0;
+                        .check-input{
+                            display: flex;
+                            align-items: center;
+                            height: 20px;
+                            .checkmark{
+                                top: 0;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+.rest-day-otr{
+    label{
+        margin-bottom: 0;
+    }
+    ul{
+        display: flex;
+        margin-top: 16px;
+        li{
+            font-weight: 400;
+            line-height: 120%;
+            color: #666666;
+            text-align: center;
+            padding: 8px 12px;
+            border: 1px solid #BDBDBD;
+            background-color: #fff;
+            width: 50%;
+            &:first-child{
+                border-radius: 4px 0px 0px 4px;
+            }
+            &:last-child{
+                border-radius: 0px 4px 4px 0px;
+            }
+            &.active{
+                border-color: #DF1B3F;
+                color: #DF1B3F;
+            }
+        }
+    }
+}
+
+.form-wrapper{
+    &.employment-form-wrap{
+        .form-group{
+            .checkbox-wrapper{
+                &.document-checkbox{
+                    flex-direction: column;
+                    align-items: flex-start;
+                    label{
+                        width: 100%;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+.other-wages-wrapper{
+    .other-wages-otr{
+        padding: 16px;
+        background: #F2F2F2;
+        border-radius: 8px;
+    }  
+}
+.employment-tab{
+    .tab-content{
+        .outerside{
+            .other-wages-wrapper{
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                .heading-cont{
+                    .note{
+                        font-weight: 400;
+                        line-height: 160%;
+                        color: #A4A4A4;
+                        display: block;
+                    }
+                    label{
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #333333;
+                        padding-bottom: 0;
+                        border: 0;
+                        margin-bottom: 8px;
+                        display: block;
+                    }
+                }
+               
+                .other-wages-otr{
+                    label{
+                        font-weight: 600;
+                        line-height: 17px;
+                        color: #666666;
+                    }
+                    
+                    .form-group-wrapper{
+                        gap: 8px;
+                        .form-group{
+                            max-width: calc(50% - 8px);
+                            flex-basis: calc(50% - 8px);
+                            border-bottom: 1px solid #A4A4A4;
+                            display: flex;
+                            padding: 12px 8px;
+                            gap: 10px;
+                            
+                            &.number{                           
+                                .form-control{
+                                    text-align: right;                               
+                                }                            
+                            }
+                            &.hours{                           
+                                .form-control{
+                                    text-align: center;                               
+                                }                            
+                            }
+                            .form-control{
+                                text-align: right;
+                                border: 0;
+                                padding: 0;
+                                height: auto;
+                            }
+                            em{
+                                max-width: 13px;
+                                width: 100%;
+                                position: inherit;
+                                top: auto;
+                                transform: translateY(-0%);
+                                right: auto;
+                                height: auto;
+                                font-weight: 400;
+                                line-height: 120%;
+                                &.hrs{
+                                    max-width: 25px;
+                                    width: 100%; 
+                                }
+                            }
+                        }
+                        span{
+                            max-width: 8px;
+                            flex-basis: 8px;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+.form-wrapper{
+    &.employment-form-wrap{
+        .radio-input{
+            .checkmark{
+                &::after{
+                    top: 3px;
+                }
+            }
+        }
+        .radio-wrapper{
+            &.working-days{
+                padding-top: 0;
+                .radio-input{
+                    margin-top: 16px;
+                    margin-bottom: 0;
+                }
+                
+            }
+        }
+        
+    }
+}
+.form-wrapper{
+    .form-group{
+        &.mb-16{
+            margin-bottom: 16px;
+        }
+    }
+}
+
+.form-wrapper{
+    &.employment-form-wrap{
+        .form-group{
+            .radio-wrapper{
+                &.radio-wrapper-two{
+                    gap: 10px;
+                    .radio-input{
+                        max-width: 102px;
+                        width: 100%;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+.place-fliter-cont{
+    &.around-filter{
+        margin-bottom: 28px;
+    }
+}
+
+.error-msg{
+    font-weight: 500;
+}
+
+.form-control{   
+    &.error-field{
+        border-color: #DF1B3F;
+    }
+}
+
+.password-input {
+    .form-control{   
+        &.error-field{
+            border-color: #DF1B3F;
+        }
+    }
+}
+
+
+

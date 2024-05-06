@@ -1,0 +1,180 @@
+.btn {
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    line-height: 115%;   
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border:1px solid transparent;
+    em {
+        margin-right: 10px;
+        font-style: normal;
+    }
+    &.btn-primary {
+        background: $color3F;
+        color: $colorFF;
+    }
+    &.btn-secondary {
+        background: $color00;
+        color: $color19;
+    }
+    &.btn-success {
+        background: $color5A;
+        color: $colorFF;
+    }
+    &.btn-black {
+        background: $color000;
+        color: $colorFF;
+    }
+    &.btn-default {
+        background: $colorFA;
+        color: $colorCF;
+        white-space: nowrap;
+    }
+    &.btn-default-red {
+        background: $colorFA;
+        color: $color3F;
+    }
+    &.btn-primary-outline {
+        color: $color3F;
+        border-color: $color3F;
+        white-space: nowrap;
+    }
+    &.btn-primary-gray {
+        background: $colorA4;;
+        color: $colorFF;
+        border-color: $colorA4;
+    }
+    &.btn-secondary-gray {
+        background: $colorFA;;
+        color: $color66;
+        border-color: $colorF2;
+        padding: 16px;
+    }
+    &.btn-primary-gray-outline {
+        background: transparent;
+        color: $color66;
+        border-color: $color66;
+    }
+    &.btn-primary-gradient {
+        color: $colorFF;
+        background: linear-gradient(90deg, #DF1B3F 0%, #E95048 101.99%);
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    &.btn-border-outline {
+        background: transparent;
+        color: $color3F;
+        border-color: $color3F;
+        border-style: dashed;
+        border-width: 1px;
+    }
+    &.btn-border-gray-outline {
+        background: transparent;
+        color: $color66;
+        border-color: $color66;
+        border-style: dashed;
+        border-width: 2px;
+        font-weight: 500;
+    }
+    &.btn-disable-gray-outline {
+        background: $colorFF;
+        color: $colorCF;
+        border-color: $colorCF;
+    }
+    
+    &.lg {
+        width: 100%;
+    }
+    &.btn-outline-primary{
+        border-color: $color3F;
+        color: $color3F;
+    }
+    &.btn-white{
+        background: $colorFF;
+        color: $color4C;
+        border-color:$colorF2;
+        box-shadow: 0px 4px 10px rgba(225, 225, 225, 0.5);
+    }
+    &.line-height-16 {
+        line-height: 16px;
+    }
+    &.button-no-wrap {
+        white-space: nowrap;
+    }   
+   &.btn-primary-gradient-small {
+        color: $colorFF;
+        background: linear-gradient(90deg, #DF1B3F 0%, #E95048 101.99%);
+        padding: 4px 16px;
+    }
+    &.apply-btn{
+        padding: 6px 10px;
+        max-width: 88px;
+        width: 100%;
+        line-height: 170%;
+    }
+    &.my-page-button {
+        padding: 12px 7px;
+    }
+    &.btn-disable-gray-bg {
+        background-color: $colorFA;
+        color: $colorCF;
+    }
+}
+
+
+.btm-button-group {
+    width: 100%;
+    display: flex;
+    &.w-50 {
+        .btn {
+            width: 50%;
+        }
+    }
+    .left-btn {
+        max-width: 115px;
+        flex-basis: 115px;
+    }
+    .rg-btn {
+        max-width: calc(100% - 115px);
+        flex-basis: calc(100% - 115px);
+    }
+    .btn {
+        border-radius: 0;
+        padding: 16px 15px;
+        &.btn-primary-outline {
+            background: $colorFF;
+        }
+    }
+}
+.no-data-content {
+    padding: 16px;
+}
+.mb-btn-0 {
+    margin-bottom: 0 !important;
+}
+
+
+.theme-large{
+    .btn {
+        &.my-page-button {
+            padding: 12px 7px;
+            font-size: 14px;
+        }
+    }
+}
+.theme-large {
+    .btn{
+        &.apply-btn{
+            line-height: 122%;
+        }
+    }
+}
+
+
+
+
+
+

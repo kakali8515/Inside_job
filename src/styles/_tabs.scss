@@ -1,0 +1,246 @@
+.tabs-otr {
+    .tabs-header {
+        display: flex;
+
+        li {
+            &.active {
+                &::after {
+                    width: 100%;
+                }
+            }
+
+            cursor          : pointer;
+            width           : calc(100% / 2);
+            font-weight     : 500;
+            line-height     : 120%;
+            text-align      : center;
+            padding         : 8px 12px;
+            color           : $colorA4;
+            border          : 1px solid $colorE0;
+            background-color: $colorFA;
+            position        : relative;
+            transition      : all 0.6s;
+
+            &::after {
+                position  : absolute;
+                content   : '';
+                height    : 4px;
+                width     : 0;
+                bottom    : -2px;
+                left      : 0;
+                right     : 0;
+                transition: all 0.6s;
+            }
+
+            &:first-child {
+                border-right: 0;
+            }
+
+            &.active {
+                background-color: $colorFF;
+                border          : 1px solid $color3F;
+                color           : $color3F;
+            }
+
+            span {
+                max-width: 68px;
+                width    : 100%;
+                display  : block;
+                margin   : 0 auto;
+            }
+        }
+    }
+}
+
+.tab-outr {
+    &.bg-block {
+        .tabs-otr {
+            .tabs-header {
+                li {
+                    font-weight: 700;
+                    &.active {
+                        background-color: $color3F;
+                        border          : 1px solid $color3F;
+                        color           : $colorFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.theme-large {
+    .login-tab {
+        .tabs-otr {
+            .tabs-header {
+                li {
+                    font-size: 14px;
+
+                    span {
+                        word-break: keep-all;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.login-tab {
+    .tabs-otr {
+        .tabs-header {
+            li {
+                font-size: 14px;
+
+                span {
+                    word-break: keep-all;
+                }
+            }
+        }
+    }
+}
+
+.login-tab-cont {
+    padding: 32px 0;
+
+    .login-logo {
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .reg-btn {
+        border-top : 1px solid $colorE0;
+        padding-top: 16px;
+        margin-top : 16px;
+    }
+}
+
+// Employment Tab
+.employment-tab {
+    .tabs-otr {
+        .tabs-header {
+            li {
+                font-weight: 500;
+                line-height: 120%;
+                color      : $colorA4;
+                padding    : 14px 12px;
+
+                span {
+                    max-width: 100%;
+                    white-space: nowrap;
+                }
+
+                &.active {
+                    color: $color3F;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        .outerside {
+            padding: 48px 0 32px 0;
+
+            .heading {
+                font-weight   : 700;
+                line-height   : 150%;
+                color         : $color3D;
+                padding-bottom: 12px;
+                border-bottom : 1px solid $colorB2;
+            }
+        }
+
+        .tab-inner-cont {
+            display       : flex;
+            gap           : 16px;
+            flex-direction: column;
+            padding-top   : 16px;
+
+            .list-content {
+                padding      : 12px 8px;
+                border       : 1px solid $colorE0;
+                border-radius: 8px;
+
+                h5 {
+                    font-weight   : 600;
+                    line-height   : 120%;
+                    color         : $color33;
+                    padding-bottom: 12px;
+                    border-bottom : 1px solid $colorF2;
+                }
+
+                .info {
+                    display        : flex;
+                    justify-content: space-between;
+                    align-items    : center;
+                    margin-top     : 8px;
+
+                    p {
+                        font-weight: 400;
+                        line-height: 120%;
+                        color      : $colorA4;
+                    }
+
+                    .btn {
+                        font-weight: 500;
+                        line-height: 170%;
+                        padding    : 4px 16px;
+                    }
+
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+
+            .no-data {
+                display        : flex;
+                align-items    : center;
+                justify-content: center;
+                flex-direction : column;
+                min-height     : 206px;
+                background     : $colorFA;
+                border-radius  : 8px;
+
+                .no-job-icon {
+                    margin-bottom: 15px;
+                }
+
+                p {
+
+                    line-height: 120%;
+                    font-weight: 600;
+                    color      : $color66;
+                }
+            }
+        }
+    }
+}
+
+.tab-wd {
+    .tabs-otr {
+        .tabs-header {
+            li {
+                padding: 14px 43px;
+
+                span {
+                    max-width: 100px;
+                }
+            }
+        }
+    }
+}
+
+.pr-tab {
+    .tabs-otr {
+        .tabs-header {
+            li {
+                padding: 14px 12px;
+
+                span {
+                    max-width: 171px;
+                }
+            }
+        }
+    }
+}

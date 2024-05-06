@@ -1,0 +1,28 @@
+.overlay-sheet {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.416);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    touch-action: none;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: 0.35s background-color;
+    text-decoration: none;
+    font-style: normal;
+
+    .inner-sheet {
+        border-radius: 10px 10px 0px 0px !important;
+        max-height: 100% !important;
+        background-color: #ffffff;
+        height: calc(100% - 40px);
+        width: 100%;
+        overflow: auto;
+        .back-wh {
+            background-color: transparent;
+        }
+    }
+}

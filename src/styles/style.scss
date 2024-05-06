@@ -1,0 +1,307 @@
+@import "./reset";
+@import "./fonts";
+@import "./variable";
+@import "./signup";
+@import "./button";
+@import "./header";
+@import "./home";
+@import "./slider";
+@import "./tabs";
+@import "./footer";
+@import "./mixin";
+@import "./theme";
+@import "./jobseekers";
+@import "./jobseekerstwo";
+@import "./modal";
+@import "./Resume";
+@import "./scrap";
+@import "./employment-contract";
+@import "./resignation";
+@import "./mypage";
+@import "./job-search-service";
+@import "./smart-service";
+@import "./recruiter";
+@import "./job-listing";
+@import "./notice-registration";
+@import "./candidate-confirmation";
+@import "./talent-search";
+@import "./view-more";
+@import "./automatic-job-posting";
+@import "./bottom-sheet";
+
+body {
+  font-family: $mainFont;
+  font-weight: 400;
+  line-height: 17px;
+  background: $colorF2;
+  color: $color82;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  text-size-adjust: none !important;
+  -webkit-text-size-adjust: none !important;
+  -moz-text-size-adjust: none !important;
+  -ms-text-size-adjust: none !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+*:focus {
+  -webkit-tap-highlight-color: transparent;
+  // outline: none;
+  // -ms-touch-action: manipulation;
+  // touch-action: manipulation;
+}
+
+Sayan a {
+  transition: all 0.6s;
+  &:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    -webkit-tap-highlight-outline: none !important;
+    -webkit-tap-highlight-box-shadow: none !important;
+  }
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input {
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+input::placeholder,
+textarea::placeholder {
+  color: $colorA4;
+}
+.container {
+  padding: 0 16px;
+}
+.p-0 {
+  padding: 0;
+}
+
+.wrapper-innr {
+  padding-bottom: 80px;
+}
+
+//new
+.extraWrap {
+  left: -75px !important;
+}
+
+.wrap {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 288px;
+  height: 70px;
+  margin-left: -144px;
+  text-align: left;
+  overflow: hidden;
+  font-size: 12px;
+  font-family: "Malgun Gothic", dotum, "돋움", sans-serif;
+  line-height: 1.5;
+}
+.wrap * {
+  padding: 0;
+  margin: 0;
+}
+.wrap .info {
+  width: 286px;
+  height: 60px;
+  border-radius: 5px;
+  border-bottom: 2px solid #ccc;
+  border-right: 1px solid #ccc;
+  overflow: hidden;
+  background: #fff;
+}
+.wrap .info:nth-child(1) {
+  border: 0;
+  box-shadow: 0px 1px 2px #888;
+}
+.info .title {
+  padding: 5px 0 0 10px;
+  height: 30px;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  font-weight: bold;
+}
+.info .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #888;
+  width: 17px;
+  height: 17px;
+  background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png");
+}
+.info .close:hover {
+  cursor: pointer;
+}
+.info .body {
+  position: relative;
+  overflow: hidden;
+}
+.info .desc {
+  position: relative;
+  // margin: 13px 0 0 90px;
+  // height: 75px;
+  padding: 10px;
+}
+.desc .ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.desc .jibun {
+  font-size: 11px;
+  color: #888;
+  margin-top: -2px;
+}
+.info .img {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 73px;
+  height: 71px;
+  border: 1px solid #ddd;
+  color: #888;
+  overflow: hidden;
+}
+.info:after {
+  content: "";
+  position: absolute;
+  margin-left: -12px;
+  left: 50%;
+  bottom: 0;
+  width: 22px;
+  height: 12px;
+  background: url("https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png");
+}
+.info .link {
+  color: #5085bb;
+}
+.keep-top-1 {
+  z-index: 999991;
+  position: relative;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+.pt-0 {
+  padding-top: 0;
+}
+
+*:active {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  outline-width: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.mb-12 {
+  margin-bottom: 12px !important;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+
+.common-sec {
+  &.home-common-sec {
+    border-bottom: 16px solid #f2f2f2;
+  }
+}
+
+#ch-plugin {
+  position: relative;
+  z-index: 99 !important;
+}
+.ch-root-block-scrolling {
+  .footer {
+    z-index: 99;
+  }
+}
+
+input.form-control:disabled,
+input.form-control:disabled {
+  background: $colorFF;
+}
+.pb-60 {
+  padding-bottom: 60px;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+.pb-90 {
+  padding-bottom: 90px;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+.pb-66 {
+  padding-bottom: 66px;
+}
+
+.v3dp__datepicker {
+  border-bottom: 1px solid;
+  .v3dp__input_wrapper {
+    padding: 5px 8px;
+  }
+}
+.paragraph-area table {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
+::-webkit-scrollbar {
+  display: none;
+}

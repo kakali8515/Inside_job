@@ -1,0 +1,46 @@
+.employment-tab {
+    .tab-content {
+        .outerside {
+            &.outerside-nodata {
+                padding: 32px 0 30px;
+                .pagination-area {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+}
+.jobpostingrequesthistory {
+    .consultation-list {
+        li {
+            border-radius: 0;
+            .c-list-top {
+                padding: 16px;
+            }
+            .btn {
+                padding: 4px 12px;
+                font-size: 12px;
+                background-color: $colorF2;
+                border-radius: 30px;
+                &.btn-progress {
+                    color: $color33;
+                }
+                &.btn-declined {
+                    color: $colorA4;
+                }
+                &.btn-completed {
+                    color: #DF1B3F;
+                }
+            }
+            h3 {
+                font-size: 14px;
+            }
+        }
+    } 
+}
+
+.pagination-outer {
+    .pagination-area {
+        margin-top: 16px;
+    }
+}

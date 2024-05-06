@@ -1,0 +1,1819 @@
+.body {
+    @include customize(theme) {
+        font-size: getValue(size14);
+    }
+}
+
+.form-control,
+label,
+.btn {
+    @include customize(theme) {
+        font-size: getValue(size14);
+    }
+}
+
+.place-fliter-cont {
+    li {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.sub-heading {
+    &.lg {
+        @include customize(theme) {
+            font-size: getValue(size18);
+        }
+    }
+
+    @include customize(theme) {
+        font-size: getValue(size16);
+    }
+}
+
+.slider-wrap {
+    .slider-content {
+
+        h5,
+        h6 {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+
+        h3 {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+
+        }
+    }
+}
+
+.tabs-otr {
+    .tabs-header {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+.top-hdr {
+    .heading {
+        @include customize(theme) {
+            font-size: getValue(size18);
+        }
+    }
+}
+
+.footer {
+    li {
+        a {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+
+}
+
+.form-wrapper {
+    .form-group {
+        label {
+            span {
+                @include customize(theme) {
+                    font-size: getValue(size12);
+                }
+            }
+        }
+    }
+}
+
+.count {
+
+    .count-txt,
+    p {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.check-input {
+    .gray-link {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.form-wrapper {
+    .radio-input {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.scrapped-icon {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+}
+
+.number {
+    &.lg {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+
+    @include customize(theme) {
+        font-size: getValue(size12);
+    }
+
+    span {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.radio-wrapper {
+    &.full {
+        p {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+// .table-body {
+//     ul {
+//         li {
+//             @include customize(theme) {
+//                 font-size: getValue(size12);
+//             }
+//         }
+//     }
+// }
+.date {
+    @include customize(theme) {
+        font-size: getValue(size12);
+    }
+}
+
+.post-details {
+    li {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.p-right {
+    span {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.rating-otr {
+    h5 {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+
+    &.wishlist {
+        p {
+            @include customize(theme) {
+                font-size: getValue(size10);
+            }
+        }
+    }
+}
+
+.search-warpper {
+    .heading {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+
+    .list-cont {
+        .list-item {
+            li {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+        }
+
+        &.no-data-list {
+            p {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+        }
+
+    }
+}
+
+.notice-warpper {
+    .heading {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+
+    .list-cont {
+        &.no-data-list {
+            p {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+        }
+
+        .list-item {
+            li {
+                .noti-cont {
+                    p {
+                        @include customize(theme) {
+                            font-size: getValue(size12);
+                        }
+
+                        &.title {
+                            @include customize(theme) {
+                                font-size: getValue(size14);
+                            }
+                        }
+                    }
+
+                    .small-txt {
+                        @include customize(theme) {
+                            font-size: getValue(size11);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.scrap-warpper {
+    .heading {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+
+        .btn {
+            @include customize(theme) {
+                font-size: getValue(size10);
+            }
+        }
+    }
+
+    .no-data-list {
+        p {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+.scrap-announce-card {
+    h6 {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+
+    h5 {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+
+    .bottom-cont {
+        ul {
+            li {
+                @include customize(theme) {
+                    font-size: getValue(size10);
+                }
+            }
+        }
+
+        .btn {
+            @include customize(theme) {
+                font-size: getValue(size10);
+            }
+        }
+    }
+}
+
+.pagination-area {
+    ul {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+}
+
+.all-check-cont {
+    label {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+}
+
+.apply-resume-heading {
+    h4 {
+        @include customize(theme) {
+            font-size: getValue(size18);
+        }
+    }
+
+    p {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.resume-card {
+    .top-row {
+        .lft-part {
+            .tag-btn {
+                @include customize(theme) {
+                    font-size: getValue(size10);
+                }
+            }
+        }
+
+        .rht-part {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+
+    .bot-row {
+        .title {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+
+        .sub-txt {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+}
+
+.scrap-resume-warpper {
+    .no-data-list {
+        p {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+.document-list {
+    p {
+        span {
+            @include customize(theme) {
+                font-size: getValue(size10);
+            }
+        }
+    }
+
+    h4 {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+
+    ul {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+}
+
+.doc-btn-innr {
+    @include customize(theme) {
+        font-size: getValue(size12);
+    }
+}
+
+.employment-tab {
+    .tabs-otr {
+        .tabs-header {
+            li {
+                @include customize(theme) {
+                    font-size: getValue(size16);
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        .outerside {
+            .heading {
+                @include customize(theme) {
+                    font-size: getValue(size16);
+                }
+            }
+        }
+
+        .tab-inner-cont {
+            .list-content {
+                h5 {
+                    @include customize(theme) {
+                        font-size: getValue(size14);
+                    }
+                }
+
+                .info {
+                    p {
+                        @include customize(theme) {
+                            font-size: getValue(size10);
+                        }
+                    }
+
+                    .btn {
+                        @include customize(theme) {
+                            font-size: getValue(size10);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.job-hunting-card {
+    .date {
+        p {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+.scrap-list-cont {
+    .scrap-announcement-card {
+        .slider-wrap {
+            .slider-content {
+                .btm-content {
+                    h6 {
+                        @include customize(theme) {
+                            font-size: getValue(size10);
+                        }
+
+                        label {
+                            @include customize(theme) {
+                                font-size: getValue(size10);
+                            }
+                        }
+                    }
+
+                    .btn {
+                        @include customize(theme) {
+                            font-size: getValue(size10);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.job-hunting-card {
+    ul {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+
+            span {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                    max-width: 94px;
+                }
+            }
+        }
+
+    }
+}
+
+.pr-box-innr {
+    span {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+
+    h3 {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+}
+
+.add-wrap {
+    h6 {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.video {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.file-doc-list {
+    li {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.date-content {
+    .date-info {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+
+
+.business-period-cont {
+    .period-row {
+        .date-info {
+            li {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+        }
+    }
+}
+
+.business-period-cont {
+    .period-row {
+        span {
+            @include customize(theme) {
+                font-size: getValue(size12);
+                max-width: 45px;
+            }
+        }
+    }
+}
+
+.business-period-cont {
+    .period-row {
+        .date-info {
+            @include customize(theme) {
+                width: calc(100% - 45px);
+            }
+
+        }
+    }
+}
+
+.comp-profile-area {
+    h4 {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.company-right {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+
+.mypage-profile-area {
+    .profile-otr {
+        .info-cont {
+            .top-part {
+                h3 {
+                    @include customize(theme) {
+                        font-size: getValue(size18);
+                    }
+                }
+
+                .rating {
+                    @include customize(theme) {
+                        font-size: getValue(size14);
+                    }
+                }
+            }
+
+            .btn {
+                &.btn-gray-outline {
+                    @include customize(theme) {
+                        font-size: getValue(size10);
+                    }
+                }
+
+                &.btn-red-outline {
+                    @include customize(theme) {
+                        font-size: getValue(size10);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// .counter-otr{
+//     ul{
+//         li{
+//             @include customize(theme) {
+//                 font-size: getValue(size24);
+//             } 
+//             span{
+//                 @include customize(theme) {
+//                     font-size: getValue(size12);
+//                 } 
+//             }
+//         }
+//     }
+// }
+
+.mypage-cont {
+    .sub-otr {
+        .sub-heading {
+            @include customize(theme) {
+                font-size: getValue(size16);
+            }
+        }
+    }
+
+    .post-list {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size16);
+            }
+        }
+    }
+}
+
+.mypage-wrapper {
+    .logout-btn-otr {
+        .btn {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+
+    .version-info {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+}
+
+.kakao-chng-pwd {
+    @include customize(theme) {
+        font-size  : getValue(size12);
+        line-height: 19px;
+    }
+}
+
+.push-noti-wrapper {
+    .heading {
+        h4 {
+            @include customize(theme) {
+                font-size: getValue(size16);
+            }
+        }
+    }
+
+    .noti-list {
+        li {
+            label {
+                @include customize(theme) {
+                    font-size: getValue(size16);
+                }
+            }
+        }
+    }
+}
+
+.withdral-wrapper {
+    .heading {
+        h2 {
+            @include customize(theme) {
+                font-size: getValue(size18);
+            }
+        }
+    }
+
+    .list {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+
+    .btn {
+        &.rd-12 {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+
+        }
+    }
+}
+
+.btn {
+    &.rd-12 {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+
+    }
+}
+
+.paragraph-area {
+    h4 {
+        @include customize(theme) {
+            font-size: getValue(size20);
+        }
+    }
+
+    p {
+        @include customize(theme) {
+            font-size: getValue(size15);
+        }
+    }
+
+    h5 {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+
+    ul {
+
+        li {
+            @include customize(theme) {
+                font-size  : getValue(size12);
+                line-height: 20px;
+            }
+        }
+    }
+
+}
+
+.notice-warpper {
+    &.customer-notice {
+        .list-cont {
+            .list-item {
+                li {
+                    .noti-cont {
+                        p {
+                            @include customize(theme) {
+                                font-size: getValue(size16);
+                            }
+                        }
+
+                        .small-txt {
+                            @include customize(theme) {
+                                font-size: getValue(size11);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.position-otr {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.consultation-list {
+    li {
+        span {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+}
+
+.answer {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+}
+
+.date.gray {
+    @include customize(theme) {
+        font-size: getValue(size14);
+    }
+}
+
+.star-rating-list {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.star-rating-bottom {
+
+    span,
+    .btn {
+        @include customize(theme) {
+            font-size: getValue(size10);
+        }
+    }
+
+}
+
+.user-profile-otr {
+    .info-cont {
+        h6 {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+}
+
+.counter-wrapper {
+    .counter-cont {
+        .post-list {
+            li {
+                .p-left {
+                    @include customize(theme) {
+                        font-size: getValue(size12);
+                    }
+                }
+
+                .p-right {
+                    @include customize(theme) {
+                        font-size: getValue(size12);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.locker-otr {
+    .post-list {
+        li {
+            .p-left {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+
+            .p-right {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+        }
+    }
+}
+
+.sub-heading {
+    &.fnt {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.c-font {
+    @include customize(theme) {
+        font-size: getValue(size10);
+    }
+}
+
+.fn-12 {
+    @include customize(theme) {
+        font-size: getValue(size12);
+    }
+}
+
+.job-listing-card {
+    h4 {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+
+    ul {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+
+            label {
+                @include customize(theme) {
+                    font-size: getValue(size12);
+                }
+            }
+        }
+    }
+
+    // .job-feature-dropdown {
+    //     ul {
+    //         li {
+    //             @include customize(theme) {
+    //                 font-size: getValue(size14);
+    //             }
+    //         }
+    //     }
+    // }
+
+    .applicant-area {
+        .btn {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+}
+
+.product-app-warpper {
+    .heading {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+
+    .pro-app-otr {
+        h5 {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+
+        ul {
+            li {
+                @include customize(theme) {
+                    font-size: getValue(size12);
+                }
+
+                .rht-part {
+                    .btn {
+                        @include customize(theme) {
+                            font-size: getValue(size12);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.recruiter-applicant-card {
+    .top-part {
+        .date {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+
+        .btn {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+
+    .applicant-area {
+        .info {
+            .left-part {
+                h5 {
+                    @include customize(theme) {
+                        font-size: getValue(size12);
+                    }
+                }
+            }
+
+            .rht-part {
+                h4 {
+                    @include customize(theme) {
+                        font-size: getValue(size14);
+                    }
+                }
+
+                ul {
+                    li {
+                        @include customize(theme) {
+                            font-size: getValue(size12);
+                        }
+
+                        .desc {
+                            @include customize(theme) {
+                                font-size: getValue(size12);
+                            }
+                        }
+                    }
+                }
+
+                .cancel-text {
+                    @include customize(theme) {
+                        font-size: getValue(size10);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.type-btm {
+
+    span,
+    del {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+
+    p {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+}
+
+.select-product-dropdown {
+    table {
+        td {
+            @include customize(theme) {
+                font-size: getValue(size13);
+            }
+        }
+    }
+}
+
+.total-amount {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size18);
+        }
+    }
+}
+
+.table-otr {
+    tr {
+        th {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+
+        td {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+
+        .btn {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+}
+
+.total-amount {
+    p {
+        &.red {
+            @include customize(theme) {
+                font-size: getValue(size16);
+            }
+        }
+    }
+}
+
+.fnt-12 {
+    @include customize(theme) {
+        font-size: getValue(size12);
+    }
+}
+
+
+.modal-body {
+    .note-text {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+
+    .choco-balance {
+        p {
+            @include customize(theme) {
+                font-size: getValue(size16);
+            }
+        }
+    }
+
+    p {
+        @include customize(theme) {
+            font-size: getValue(size14);
+
+        }
+    }
+}
+
+.signature-wrapper {
+    .signature-header {
+        h3 {
+            @include customize(theme) {
+                font-size: getValue(size18);
+            }
+        }
+    }
+
+    .note-text {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.contract-list {
+    li {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.employ-contract-list {
+    ul {
+        li {
+            p {
+                @include customize(theme) {
+                    font-size: getValue(size16);
+                }
+
+                span {
+                    @include customize(theme) {
+                        font-size: getValue(size14);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.super-coin-list {
+    li {
+        p {
+            @include customize(theme) {
+                font-size: getValue(size16);
+            }
+        }
+    }
+}
+
+.pay-hist-left {
+    h4 {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+
+    span {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.pay-hist-list {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size15);
+        }
+    }
+}
+
+.sc-title,
+.sc-date {
+    @include customize(theme) {
+        font-size: getValue(size12);
+    }
+}
+
+.storage-box-innr {
+    td {
+        span {
+            @include customize(theme) {
+                font-size: getValue(size10);
+            }
+        }
+    }
+
+    h4 {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+
+.form-wrapper {
+    &.employment-form-wrap {
+        .form-group {
+            .business-period-cont {
+                .note {
+                    @include customize(theme) {
+                        font-size: getValue(size10);
+                    }
+                }
+            }
+
+            .wage-input-wrap {
+                span {
+                    @include customize(theme) {
+                        font-size: getValue(size12);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.working-day-wrap {
+    .note {
+        @include customize(theme) {
+            font-size: getValue(size10);
+        }
+    }
+
+    .working-otr {
+        .header-row {
+            .item {
+                @include customize(theme) {
+                    font-size: getValue(size12);
+                }
+            }
+        }
+
+        .bdy-cont {
+            .day-otr {
+                // .item-row {
+                //     .rht-part {
+                //         span {
+                //             @include customize(theme) {
+                //                 font-size: getValue(size12);
+                //             }
+                //         }
+                //     }
+                // }
+
+                .hidden-box {
+                    .form-group-wrapper {
+                        .form-group {
+                            em {
+                                @include customize(theme) {
+                                    font-size: getValue(size14);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.rest-day-otr {
+    ul {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+.employment-tab {
+    &.bonus-tab {
+        .tabs-otr {
+            .tabs-header {
+                li {
+                    @include customize(theme) {
+                        font-size: getValue(size14);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bonus-wrapper {
+    h5 {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.condition-checkbox-otr {
+    .exe {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.employment-tab {
+    .tab-content {
+        .outerside {
+            .other-wages-wrapper {
+                .heading-cont {
+                    .note {
+                        @include customize(theme) {
+                            font-size: getValue(size10);
+                        }
+                    }
+                }
+
+                .other-wages-otr {
+                    label {
+                        @include customize(theme) {
+                            font-size: getValue(size14);
+                        }
+                    }
+
+                    .form-group-wrapper {
+                        .form-group {
+                            em {
+                                @include customize(theme) {
+                                    font-size: getValue(size14);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ellipsis {
+    span {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.pr-tab {
+    .tabs-otr {
+        .tabs-header {
+            li {
+                @include customize(theme) {
+                    font-size: getValue(size16);
+                }
+
+            }
+        }
+    }
+}
+
+.app-right {
+    .sub-heading {
+        @include customize(theme) {
+            font-size: getValue(size18);
+        }
+    }
+}
+
+.resume-basic-area {
+    .check-list {
+        &.box-check {
+            li {
+                .text {
+                    @include customize(theme) {
+                        font-size: getValue(size14);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.add-career-form {
+    .business-period-cont {
+        .period-row {
+            .date-info {
+                li {
+                    span {
+                        .form-control {
+                            @include customize(theme) {
+                                font-size: getValue(size14);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ai-recommed-list {
+    .slider-content {
+        .btm-content {
+            .btn {
+                @include customize(theme) {
+                    font-size: getValue(size12);
+                }
+            }
+        }
+    }
+}
+
+.slider-content {
+    .btm-content {
+        .btn {
+            @include customize(theme) {
+                font-size: getValue(size12);
+            }
+        }
+    }
+}
+
+
+.ai-recommed-form {
+    .number {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+
+        label {
+            @include customize(theme) {
+                font-size: getValue(size10);
+            }
+        }
+
+
+    }
+}
+
+.search-field {
+    .search-innr {
+        .search-input {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+.apply-paid {
+    .job-listing-card {
+        h4 {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+.comp-info-list {
+    .slider-content {
+        .btm-content {
+            .btn {
+                @include customize(theme) {
+                    font-size: getValue(size10);
+                }
+            }
+        }
+    }
+}
+
+.comp-interest-wrap {
+    .btn {
+        @include customize(theme) {
+            font-size: getValue(size10);
+        }
+    }
+}
+
+p {
+    &.mid-age-note {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.slider-wrap {
+    .slider-content {
+        .btm-content {
+            p {
+                &.hr-wage-no {
+                    @include customize(theme) {
+                        font-size: getValue(size10);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mypage-silver-bell-cont {
+
+    .radio-wrapper {
+        &.full {
+            p {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+
+            .radio-input {
+                &.radio-input-lg {
+                    p {
+                        @include customize(theme) {
+                            font-size: getValue(size18);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.c-font-line {
+    @include customize(theme) {
+        font-size: getValue(size10);
+    }
+}
+
+.small {
+    &.error-msgsign {
+        @include customize(theme) {
+            font-size: getValue(size10);
+        }
+    }
+}
+
+.error-msg {
+    @include customize(theme) {
+        font-size: getValue(size10);
+    }
+}
+
+.error-msgsign {
+    @include customize(theme) {
+        font-size: getValue(size10);
+    }
+}
+
+
+
+.slider-content {
+    .btm-content {
+        .btn {
+            &.btn-job-posting {
+                @include customize(theme) {
+                    font-size: getValue(size10);
+                }
+
+                @include customize(theme) {
+                    padding: getValue(btn-padding);
+                }
+            }
+        }
+    }
+}
+
+.image-swiper {
+    .swiper-pagination-fraction {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.table {
+    .table-col {
+        .table-head {
+            span {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+        }
+    }
+}
+
+.selected-list {
+    li {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+
+.job-post-details {
+    .post-list {
+        .p-right {
+            span {
+                @include customize(theme) {
+                    font-size: getValue(size12);
+                }
+            }
+        }
+    }
+}
+
+
+.locattion-otr {
+    .left-part {
+        ul {
+            li {
+                @include customize(theme) {
+                    font-size: getValue(size12);
+                }
+            }
+        }
+    }
+}
+
+.signature-wrapper {
+    h3 {
+        &.sub-heading {
+            @include customize(theme) {
+                font-size: getValue(size16);
+            }
+        }
+    }
+}
+
+.choco-balance {
+    span {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+
+    p {
+        @include customize(theme) {
+            font-size: getValue(size16);
+        }
+    }
+}
+
+.sub-otr {
+    p {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+
+}
+
+.type-innr {
+    ul {
+        li {
+            @include customize(theme) {
+                font-size: getValue(size14);
+            }
+        }
+    }
+}
+
+
+.form-wrapper-login {
+    .btn {
+        @include customize(theme) {
+            font-size: getValue(size14);
+        }
+    }
+}
+
+.check-input {
+    em {
+        @include customize(theme) {
+            font-size: getValue(size12);
+        }
+    }
+}
+
+.form-wrapper {
+    .form-group {
+        &.valid-error {
+            .error-msg {
+                @include customize(theme) {
+                    font-size: getValue(size10);
+                }
+            }
+        }
+    }
+}
+
+.viersheet-lg {
+    @include customize(theme) {
+        font-size: getValue(size14) !important;
+    }
+}
+
+
+.condition-checkbox-otr {
+    label.check-input {
+        @include customize(theme) {
+            font-size: getValue(size14)
+        }
+    }
+}
+
+.comp-interest-edit {
+    .sub-otr {
+        .bt-group {
+            .btn {
+                @include customize(theme) {
+                    font-size: getValue(size10)
+                }
+            }
+        }
+    }
+}
+
+
+.job-details-btn {
+    .btn {
+        font-size: 14px;
+    }
+}
+
+.job-post-details {
+    .post-list {
+        .p-right-span {
+            span {
+                @include customize(theme) {
+                    font-size: getValue(size14);
+                }
+            }
+        }
+    }
+}

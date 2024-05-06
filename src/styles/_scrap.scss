@@ -1,0 +1,368 @@
+// Scrap
+.scrap-warpper{
+    padding-top: 16px;
+    padding-bottom: 28px;
+    &.p-0 {
+        padding: 0;
+    }
+    .heading{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: $color3D;
+        padding-bottom: 12px;
+        border-bottom: 1px solid $colorB2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        .btn{
+            font-size: 10px;
+            line-height: 170%;
+            border-radius: 8px;
+            padding: 4px 16px;
+        }
+    }    
+}
+
+.scrap-list-cont{
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        padding-top: 16px;       
+    }
+
+.scrap-announcement-card{
+            padding: 16px 0;
+            border-bottom: 1px solid #E0E0E0;                
+            &.scrap-edit-card{
+                display: flex;
+                gap: 8px;
+                .left-part{    
+                    max-width: 24px;
+                    width: 100%;
+                }
+                .right-part{    
+                    width: calc(100% - 24px);
+                }
+            }
+}
+
+
+
+.all-check-cont{
+    label{
+        font-weight: 700;
+        line-height: 150%;
+        color: $color3D;
+    }   
+}
+
+    // Square Check Box
+
+    /* The container */
+.square-check-input {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    em {
+        font-weight: 400;
+        font-size: 12px;
+        font-style: normal;
+        color: $color3F;
+        margin-right: 4px;
+        &.gr {
+            color: $colorA4;
+        }
+    }
+    .gray-link {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-weight: 400;
+        color: $colorA4;
+    }
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        width: 24px;
+        border: 1px solid $colorCF;    
+        border-radius: 2px;    
+        &:after {
+            content: "";
+            position: absolute;
+            left: 9px;
+            top: 5px;
+            width: 7px;
+            height: 10px;
+            border: solid $colorFF;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+      }
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .square-check-input input:checked ~ .checkmark {
+    background-color: $color3F;
+    border-color: $color3F;
+  }
+
+  /* Show the checkmark when checked */
+  .square-check-input input:checked ~ .checkmark:after {
+    border-color: $colorFF;
+  }
+
+
+ // Apply Choose Resume
+    .apply-resume-heading{
+        padding-bottom: 32px;
+        h4{
+            font-weight: 700;            
+            line-height: 22px;
+            color: $color3D;
+            margin-bottom: 8px;
+        }
+        p{
+            line-height: 130%;
+        }
+    }
+    .scrap-resume-warpper{
+        background: $colorFA;
+        height: 100%;
+        .resume-list-cont{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        .form-wrapper{
+            padding-top: 32px;
+            .btn-space{
+                background: $colorFF;
+                padding: 32px 16px;
+                margin-top: 12px;
+                border-top: 1px solid $colorE0;
+            }
+        }
+        .no-data-content{
+            margin-top: 0;
+        }
+        
+        
+    }
+    .resume-card{
+        padding: 12px 16px;
+        border: 1px solid $colorE0;
+        border-radius: 8px;
+        margin-bottom: 0 !important;
+        .top-row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid $colorF2;
+            padding-bottom: 12px;
+            .lft-part{
+                display: flex;
+                gap: 8px;
+                .tag-btn{
+                    padding: 4px 16px;
+                    background: $colorF2;
+                    border-radius: 8px;
+                    font-weight: 500;                    
+                    line-height: 170%;
+                    color: $color3F;
+                }
+            }
+            .rht-part{
+                font-weight: 400;
+                line-height: 120%;  
+                color: $colorA4;
+            }
+        }
+        .bot-row{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-top: 12px;
+            .title{
+                font-weight: 600;                
+                line-height: 120%;
+                color: $color33;
+            }
+            .sub-txt{
+                font-weight: 500;
+                line-height: 120%;
+                color: $color33;
+                display: flex;
+                gap: 4px;
+                span{
+                    font-weight: 400;
+                    color: $colorA4; 
+                }
+            }
+        
+        }
+        &.form-group{
+            .radio-input{
+                .checkmark{
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+    }
+    
+    .scrap-list-cont{    
+        padding-top: 16px;
+        .scrap-announcement-card{
+            padding: 16px 0;
+                    border-bottom: 1px solid #E0E0E0;
+            .slider-wrap{
+                .slider-content{
+                    padding-top: 0;
+                    .btm-content{
+                        h6{                        
+                            line-height: 120%;
+                            span{
+                                margin-right: 4px;
+                            }
+                            label{
+                                font-weight: 600;
+                                color: $colorA4;
+                                line-height: 120%;
+                            }
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+
+
+    // ScrapAnnouncement Component
+    .scrap-announce-card{
+        padding: 16px 0;
+        border-bottom: 1px solid #E0E0E0;
+        h6{
+            font-weight: 500;                   
+            line-height: 120%;
+            color: $color82;
+            margin-bottom: 4px;
+            .scrap-icon{
+                .gray-icon{
+                    display: block;
+                }
+                .red-icon{
+                    display: none;
+                }
+            }
+        }    
+        &.active{
+            h6{
+                .scrap-icon{
+                    .gray-icon{
+                        display: none;
+                    }
+                    .red-icon{
+                        display: block;
+                    }
+                }
+            }
+            
+        }
+        h5{
+            font-weight: 600;                   
+            line-height: 120%;
+            color: $color33;
+            margin-bottom:8px;
+        }
+        .bottom-cont{
+            padding-top: 8px;
+            border-top: 1px solid #F2F2F2;
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            justify-content: space-between;
+            ul{
+                display: flex;
+                gap: 4px;
+                li{
+                    font-weight: 400;                           
+                    line-height: 120%;
+                    color: #A4A4A4;
+                    position: relative;
+                    padding-left: 4px;
+                    padding-bottom: 0;
+                    border-bottom: 0;
+                    &::after{
+                        content: '';
+                        width: 2px;
+                        height: 2px;
+                        background: #E0E0E0;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                    span{
+                        color: #DF1B3F;
+                        margin-right: 4px;                              
+                    }
+                }
+            }
+            .btn{
+                font-size: 10px;
+                line-height: 170%;
+                padding: 4px 16px;
+            }
+        }
+        &.scrap-edit-card{
+            display: flex;
+            gap: 8px;
+            .left-part{    
+                max-width: 24px;
+                width: 100%;
+            }
+            .right-part{    
+                width: calc(100% - 24px);
+            }
+        }
+
+        &.announce-view-card{
+            h6{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+}
+
+.scrap-warpper{
+    .square-check-input{
+        .checkmark{
+            top: -1px;
+        }
+    }
+}
+

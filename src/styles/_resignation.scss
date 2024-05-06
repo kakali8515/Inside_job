@@ -1,0 +1,270 @@
+
+.resignation-letter-cont{
+    .sub-otr{
+        padding-bottom: 12px;
+    }
+    .sub-heading{
+        line-height: 150%;
+    }
+    .post-list li {
+        margin-bottom: 16px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    
+}
+
+.worker-sign-cont{
+    min-height: 184px;
+    padding: 16px;
+    border: 1px solid $colorF2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    p{
+        line-height: 120%;
+        color: #4C4C4C;
+    }
+    .date-info{
+        display: flex;
+        gap: 8px;
+        li{
+            font-weight: 400;
+            line-height: 120%;
+            color: #4C4C4C;
+            display: flex;
+            gap: 2px;
+            span{
+                font-weight: 600;
+                color: #DF1B3F;
+            }
+        }
+    }
+}
+
+.btm-button-group{
+    &.btm-half-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .btn{
+            max-width: 50%;
+            width: 100%;
+        }
+    }
+}
+
+
+.form-wrapper{
+    &.resig-letter-wrapper{
+        .form-group{           
+            textarea{
+               &.form-control{
+                resize: none;
+                color: $color33;
+                &.form-control-33 {
+                    color: $color33;
+                }          
+             } 
+            }
+        }
+    }
+    
+}
+
+.business-period-cont{
+    .period-row{
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        gap: 4px;
+        .date-info{
+            display: flex;
+            gap: 8px;
+            width: 80%;
+            justify-content: space-around;
+            padding: 12px 8px;
+            border-bottom: 1px solid #E0E0E0;
+            width: calc(100% - 30px);
+            li{
+                font-weight: 500;               
+                line-height: 120%;
+                color: #666666;
+                display: flex;
+                gap: 10px;
+                span{
+                    font-weight: 400;
+                    color: #A4A4A4;
+                    max-width: 71px;
+                    width: 100%;                    
+                    .form-control{
+                        text-align: center;
+                        padding: 0;
+                        height: auto;
+                        border: 0;
+                        color: $color33;
+                    }
+                }
+            }
+        }     
+        span{
+            max-width: 30px;
+            font-size: 12px;
+        }  
+        &.until-row{
+            .date-info{
+              border-bottom: 1px solid #A4A4A4;
+          }          
+      }
+    }
+}
+
+
+// CSS FOR INPUT FILE CUSTOM BUTTON
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    padding: 12px 16px;
+    background: #FFFFFF;
+    border: 1px solid #DF1B3F;
+    border-radius: 8px;
+    font-weight: 500;
+    line-height: 115%;
+    color: #DF1B3F !important;
+    text-align: center;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    outline: none !important;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: none;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+.comp-profile-area{
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    .profile-image{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 70px;
+            object-fit: cover;
+        }
+    }
+    h4{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        color: #333333;
+    }
+    &.comp-profile-area-sm-g {
+        gap: 8px;
+    }
+}
+.rating-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .item-row{
+        display: flex;  
+        p{
+            max-width: 156px;
+            width: 100%;
+            color: $color4C;
+            font-size: 14px;
+        }
+        .rate-img {
+            margin-right: 2px!important;
+        }
+        .star-cont{
+            width:calc(100% - 156px);
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            justify-content: end;
+            .rate-img{
+                display: flex;
+                gap: 8px;
+                img{
+                    width: 19px;
+                    height: 18px;
+                }
+                span {
+                    min-width: auto;
+                    margin-right: 6px !important;
+                    &:last-child {
+                        margin-right: 0 !important;
+                    }
+                }
+            }
+            > span{
+                font-weight: 500;
+                line-height: 17px;
+                color: #4C4C4C;
+                margin-right: 0 !important;
+                min-width: 29px;
+                display: inline-block;
+                text-align: right;
+                white-space: nowrap;
+                font-size: 14px;
+                em{
+                    font-weight: 700;
+                    color: #DF1B3F;
+                    // width: 20px;
+                    font-style: normal;
+                    padding: 0 5px 0 5px;
+                }
+            }
+        }
+        &.total-rating{
+            border-top: 1px solid #F2A4B2;
+            padding: 8px 0;
+            .star-cont{
+                width: 100%;
+            }
+        }
+    }
+    &.rating-wrap-small {
+        .star-cont{
+            span {
+                margin-right: 5px !important;
+            }
+        }
+    }
+}
+.essential {
+    font-weight: 500;
+    color: #DF1B3F;
+    margin-left: 2px;
+    font-size: 12px;
+}
